@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35424.110 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictronManageSurgeRates", "VictronManageSurgeRates\VictronManageSurgeRates.csproj", "{F3B39C9C-ECC5-4E15-806E-DDCF21F683B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictronManageSurgeRates.Tests", "VictronManageSurgeRates.Tests\VictronManageSurgeRates.Tests.csproj", "{B69BC984-1C08-48B4-99C9-FED687492CAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3B39C9C-ECC5-4E15-806E-DDCF21F683B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B39C9C-ECC5-4E15-806E-DDCF21F683B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B39C9C-ECC5-4E15-806E-DDCF21F683B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B39C9C-ECC5-4E15-806E-DDCF21F683B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69BC984-1C08-48B4-99C9-FED687492CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69BC984-1C08-48B4-99C9-FED687492CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69BC984-1C08-48B4-99C9-FED687492CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69BC984-1C08-48B4-99C9-FED687492CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
