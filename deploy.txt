@@ -1,2 +1,5 @@
 # Deploy Update Steps
-# Run on Windows
+# Run on Windows *** Command Prompt *** not powershell
+sc.exe create "Manage Victron Surge Charges" binpath= "\"C:\Program Files\dotnet\dotnet.exe\" C:\Code\victron-manage-surge-charge\VictronManageSurgeRates\bin\Debug\net8.0\VictronManageSurgeRates.dll --contentRoot C:\Code\victron-manage-surge-charge\VictronManageSurgeRates\bin\Debug\net8.0"
+sc.exe start "Manage Victron Surge Charges"
+sc.exe delete "Manage Victron Surge Charges"

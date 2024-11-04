@@ -1,4 +1,4 @@
-#  Manage Surge Charge with a Victron Inventer
+#  Manage Grid Surge Charge with a Victron Inverter
 Tool to control Victron inverter mode to avoid grid surge charge hours. For example, during the hours of 4pm - 8pm, the grid charges a higher rate for electricity. This tool will switch the inverter to battery mode during these hours to avoid the surge charge. The inverter will switch back to grid mode after 8pm.
 
 ## Requirements
